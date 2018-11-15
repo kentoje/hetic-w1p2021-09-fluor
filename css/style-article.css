@@ -44,7 +44,6 @@ a {
   font-size: 18px;
 }
 article {
-  font-family: Raleway-Light;
   padding: 30px;
   background: white;
   width: auto;
@@ -93,7 +92,6 @@ article img {
   align-items: center;
   border-radius: 20px;
   transition: transform 0.2s;
-  font-family: "Raleway-SemiBold";
 }
 
 .button-return:hover {
@@ -157,7 +155,6 @@ article img {
 .button-read a {
   color: #cc0000;
   text-decoration: none;
-  font-family: Raleway-SemiBold;
   justify-content: center;
 }
 
@@ -181,12 +178,10 @@ footer {
   font-size: 14px;
 }
 .product-footer h5 {
-  font-family: Raleway-SemiBold;
   margin-bottom: 10px;
   color: #63696f;
 }
 .product-footer li a {
-  font-family: Raleway-Light;
   color: white;
   text-decoration: none;
 }
@@ -243,7 +238,6 @@ footer li {
     opacity: 0.5;
   }
   .view-article h2 {
-    font-family: Raleway-SemiBold;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -251,7 +245,6 @@ footer li {
   }
 
   article {
-    font-family: Raleway-Light;
     padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
@@ -317,13 +310,11 @@ footer li {
   }
 
   .product-footer h5 {
-    font-family: Raleway-SemiBold;
     margin-bottom: 10px;
     color: #63696f;
   }
 
   .product-footer li a {
-    font-family: Raleway-Light;
     color: white;
     text-decoration: none;
     transition: color 200ms;
