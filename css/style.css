@@ -1,5 +1,5 @@
 /* FIXME: les fonts ne chargent pas */
-@font-face {
+/* @font-face {
     font-family: "Raleway";
     src: url("fonts/Raleway-Medium.ttf") format("truetype");
 }
@@ -15,10 +15,11 @@
     font-family: "Raleway";
     src: url("fonts/Raleway-Light.ttf") format("truetype");
     font-weight: lighter;
-}
+} */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body {
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
