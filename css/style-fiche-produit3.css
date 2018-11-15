@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-SemiBold.ttf") format("ttf");
+  font-weight: bold;
+
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-Light.ttf") format("ttf");
+  font-weight: lighter;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 10px ;
+}
+
+header {
+  min-width: 90vw;
+  min-height: 7vh;
+  background-color: #ffffff;
+}
+
+header img {
+  height: 25%;
+  width: 25%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.EOS-1D {
+  max-width: 80%;
+}
+
+h3 {
+  font-size: 25px;
+  color: #63696F;
+}
+
+.logo {
+  max-width: 20%;
+  margin-right: 10px;
+}
+
+.titre-fiche {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carac-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mega-pixel {
+  margin-right: 10px;
+}
+
+.auto-focus {
+  margin-right: 10px;
+}
+
+.recompenses {
+  padding-top: 30px;
+}
+
+.logorecompenses {
+  text-align: center;
+}
+
+.galeries {
+  padding-top: 30px;
+}
+
+.photogalerie {
+  max-width: 100%;
+}
+
+p {
+  font-size: 13px;
+}
