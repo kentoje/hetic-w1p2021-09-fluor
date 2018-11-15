@@ -18,7 +18,7 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 }
 
 
-a.button  {
+a.button {
     text-decoration: none;
     transition: transform 0.2s;
 }
@@ -34,6 +34,7 @@ a.button  {
 a.button:hover {
     transform: scale(1.2);
 }
+
 /* FIXME: temporaire*/
 img {
     max-width: 80vw;
@@ -74,7 +75,10 @@ main section:not(:first-child) {
     justify-content: space-around;
 }
 
-.produit-1, .produit-2, .produit-3, .button-read{
+.produit-1,
+.produit-2,
+.produit-3,
+.button-read {
     opacity: 0;
     transform: translateY(50px) scale(0.8);
     transition: opacity 0.5s, transform 0.2s;
@@ -83,11 +87,12 @@ main section:not(:first-child) {
 .is-reached {
     opacity: 1;
     transform: none;
-  }
+}
 
 main section:not(:nth-child(6)) {
     min-height: 100vh;
 }
+
 /* Homepage*/
 main section:nth-child(1) {
     background-color: #1D1E1F;
@@ -95,7 +100,7 @@ main section:nth-child(1) {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
 }
 
 section:nth-child(1) .logo-text {
@@ -119,18 +124,22 @@ section:nth-child(1) .text-arrow {
 section:nth-child(1) .text-arrow .arrow {
     padding-top: 30px;
 }
+
 /*Produit 1*/
 main section:nth-child(2) {
     background-color: white;
 }
+
 main section:nth-child(2) .m50 {
     height: 55%;
     width: 55%;
 }
+
 /*Produit 2*/
 main section:nth-child(3) {
     background-color: white;
 }
+
 /*Produit 3*/
 main section:nth-child(4) {
     background-color: white;
@@ -148,14 +157,17 @@ footer {
     animation: jumps 0.8s both infinite alternate ease-out;
 }
 
-.quotes-1, .quotes-2 {
+.quotes-1,
+.quotes-2 {
     display: none;
 }
+
 /* animations */
 @keyframes jumps {
     from {
         transform: translateY(0px);
     }
+
     to {
         transform: translateY(-10px);
     }
@@ -167,21 +179,28 @@ footer {
     .logo {
         transform: scale(1.8);
     }
+
     section:first-child .logo-text h1 {
         padding-top: 50px;
         font-size: 24px;
     }
+
     section:first-child .text-arrow {
         padding-top: 765px;
     }
+
     h3 {
         display: none;
     }
-    main #produit-1, #produit-2, #produit-3 {
+
+    main #produit-1,
+    #produit-2,
+    #produit-3 {
         display: grid;
         grid-template-columns: 42.5vw 15vw 42.5vw;
         grid-template-rows: 1fr 4fr 1fr 1fr;
     }
+
     /* Grid Produit-1 */
     main .produit-1 h4 {
         grid-column: 3;
@@ -190,6 +209,7 @@ footer {
         padding-top: 50px;
         font-size: 40px;
     }
+
     main section:nth-child(2) .m50 {
         grid-column: 1;
         grid-row: 2;
@@ -197,28 +217,35 @@ footer {
         height: 80%;
         width: auto;
     }
-    .quotes-1, .quotes-2 {
+
+    .quotes-1,
+    .quotes-2 {
         display: inline;
         max-width: 5%;
-        margin: 0px 20px 0px 20px; 
+        margin: 0px 20px 0px 20px;
     }
+
     .quotes-2 {
         transform: rotate(180deg);
     }
+
     .produit-1 .slogan {
         grid-column: 3;
         grid-row: 2;
         justify-self: center;
     }
+
     .produit-1 .button {
         grid-column: 2;
         grid-row: 3;
     }
+
     .produit-1 .arrow {
         grid-column: 2;
         grid-row: 4;
         justify-self: center;
     }
+
     /* Grid Produit 2 */
     main .produit-2 h4 {
         grid-column: 1;
@@ -227,6 +254,7 @@ footer {
         padding-top: 50px;
         font-size: 40px;
     }
+
     main section:nth-child(3) .eos-6d {
         grid-column: 3;
         grid-row: 2;
@@ -234,20 +262,24 @@ footer {
         height: 70%;
         width: auto;
     }
+
     .produit-2 .slogan {
         grid-column: 1;
         grid-row: 2;
         justify-self: center;
     }
+
     .produit-2 .button {
         grid-column: 2;
         grid-row: 3;
     }
+
     .produit-2 .arrow {
         grid-column: 2;
         grid-row: 4;
         justify-self: center;
     }
+
     /* Grid Produit 3 */
     main .produit-3 h4 {
         grid-column: 3;
@@ -256,6 +288,7 @@ footer {
         padding-top: 50px;
         font-size: 40px;
     }
+
     main section:nth-child(4) .eos-1d {
         grid-column: 1;
         grid-row: 2;
@@ -263,24 +296,28 @@ footer {
         height: 100%;
         width: auto;
     }
+
     .produit-3 .slogan {
         grid-column: 3;
         grid-row: 2;
         justify-self: center;
     }
+
     .slogan {
         font-size: 20px;
     }
+
     .produit-3 .button {
         grid-column: 2;
         grid-row: 3;
     }
+
     .produit-3 .arrow {
         grid-column: 2;
         grid-row: 4;
         justify-self: center;
     }
 
-   
+
 
 }
