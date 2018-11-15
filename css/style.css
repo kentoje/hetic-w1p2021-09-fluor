@@ -23,10 +23,15 @@ body {
 
 a {
     text-decoration: none;
+}
+
+
+a.button  {
+    text-decoration: none;
     transition: transform 0.2s;
 }
 
-a:hover {
+a.button:hover {
     transform: scale(1.2);
 }
 /* FIXME: temporaire*/

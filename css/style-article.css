@@ -18,6 +18,10 @@ body {
   background: #1d1e1f;
 }
 
+a {
+  color: #cc0000;
+}
+
 .view-article {
   height: auto;
   background-color: #1d1e1f;
@@ -28,9 +32,6 @@ body {
   font-size: 25px;
   text-align: center;
   margin-bottom: 10px;
-  padding-right: 20px;
-  padding-right: 20px;
-  margin-right: 10px;
 }
 .view-article h3 {
   color: #63696f;
@@ -88,13 +89,13 @@ article img {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  transition: background 300ms;
+  transition: transform 0.2s;
 }
 
 .button-return:hover {
-  background: #01578c;
-  cursor: pointer;
+  transform: scale(1.2);
 }
+
 .button-return a {
   color: white;
   text-decoration: none;
@@ -155,12 +156,6 @@ article img {
   font-family: Raleway-SemiBold;
   justify-content: center;
 }
-.button-read2 a {
-  color: #cc0000;
-  text-decoration: none;
-  font-family: Raleway-SemiBold;
-  justify-content: center;
-}
 
 /* debut footer */
 footer {
@@ -200,7 +195,7 @@ footer li {
   margin-top: 70px;
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 900px) {
   /*media queries pour la page preview*/
   .img-background {
     background-image: url("../images/background.png");
