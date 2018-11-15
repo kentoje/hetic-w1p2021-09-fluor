@@ -74,7 +74,7 @@ main section:not(:first-child) {
     justify-content: space-around;
 }
 
-.produit-1, .produit-2, .produit-3 {
+.produit-1, .produit-2, .produit-3, .button-read{
     opacity: 0;
     transform: translateY(50px) scale(0.8);
     transition: opacity 0.5s, transform 0.2s;
@@ -147,36 +147,6 @@ footer {
     width: 20px;
     animation: jumps 0.8s both infinite alternate ease-out;
 }
-/* FIXME: Test background color */
-.text-background {
-    display: inline-block;
-    background-color: rgba(255, 0, 0, 0.5);
-    height: 16px;
-    width: 80px;
-    position: absolute;
-    top: 0;
-    z-index: 2;
-}
-
-.text-background2 {
-    display: block;
-    background-color: rgba(255, 0, 0, 0.5);
-    height: 16px;
-    width: 50px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-}
-
-.text-background3 {
-    display: inline-block;
-    background-color: rgba(255, 0, 0, 0.5);
-    height: 16px;
-    width: 206px;
-    position: absolute;
-    z-index: 2;
-}
 
 .quotes-1, .quotes-2 {
     display: none;
@@ -238,7 +208,6 @@ footer {
     .produit-1 .slogan {
         grid-column: 3;
         grid-row: 2;
-        font-size: 14px;
         justify-self: center;
     }
     .produit-1 .button {
@@ -268,7 +237,6 @@ footer {
     .produit-2 .slogan {
         grid-column: 1;
         grid-row: 2;
-        font-size: 14px;
         justify-self: center;
     }
     .produit-2 .button {
@@ -298,8 +266,10 @@ footer {
     .produit-3 .slogan {
         grid-column: 3;
         grid-row: 2;
-        font-size: 14px;
         justify-self: center;
+    }
+    .slogan {
+        font-size: 20px;
     }
     .produit-3 .button {
         grid-column: 2;
@@ -310,5 +280,7 @@ footer {
         grid-row: 4;
         justify-self: center;
     }
+
+   
 
 }

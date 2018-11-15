@@ -90,6 +90,7 @@ article img {
   align-items: center;
   border-radius: 20px;
   transition: transform 0.2s;
+  font-family: "Raleway-SemiBold";
 }
 
 .button-return:hover {
