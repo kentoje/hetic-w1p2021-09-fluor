@@ -99,11 +99,12 @@ article img {
 
 .button-return a {
   color: white;
+  font-weight: bold;
   text-decoration: none;
   height: 100%;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 /* page view article*/
@@ -154,6 +155,9 @@ article img {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 60px;
+  text-shadow: 0 1px 1px rgb(134, 1, 1);
+  font-weight: bold;
+
 }
 
 .button-read a {

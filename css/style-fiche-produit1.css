@@ -114,6 +114,10 @@ p {
   margin-top: 30px;
 }
 
+.button-return a {
+  font-weight: bold;
+}
+
 .button-return {
   margin: auto;
   margin-top: 20px;
