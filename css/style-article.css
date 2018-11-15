@@ -1,12 +1,3 @@
-/* @font-face {
-  font-family: "Raleway-SemiBold";
-  src: url("fonts/Raleway-SemiBold.ttf") format("woff2");
-}
-
-@font-face {
-  font-family: "Raleway-Light";
-  src: url("fonts/Raleway-Light.ttf") format("woff2");
-} */
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
@@ -29,6 +20,7 @@ a {
   height: auto;
   background-color: #1d1e1f;
 }
+
 .view-article h2 {
   font-weight: Semi-Bold;
   color: white;
@@ -36,6 +28,7 @@ a {
   text-align: center;
   margin-bottom: 10px;
 }
+
 .view-article h3 {
   color: #63696f;
   text-align: center;
@@ -43,6 +36,7 @@ a {
   opacity: 0.5;
   font-size: 18px;
 }
+
 article {
   padding: 30px;
   background: white;
@@ -50,19 +44,23 @@ article {
   height: auto;
   margin-bottom: 30px;
 }
+
 .intro {
   color: #6b6464;
   text-align: justify;
 }
+
 article p {
   margin-top: 20px;
   text-align: justify;
 }
+
 article h3 {
   color: black;
   padding: 10px;
   font-size: 18px;
 }
+
 article h4 {
   color: black;
   padding: 10px;
@@ -81,6 +79,7 @@ article img {
   margin-left: auto;
   margin-right: auto;
 }
+
 .button-return {
   margin: auto;
   margin-top: 20px;
@@ -117,6 +116,7 @@ article img {
   background-size: cover;
   background-position: center;
 }
+
 .img-car {
   background-image: url("../images/voiture.png");
   background-repeat: no-repeat;
@@ -126,6 +126,7 @@ article img {
   background-size: cover;
   background-position: center;
 }
+
 .img-orage {
   background-image: url("../images/orage.png");
   background-repeat: no-repeat;
@@ -135,12 +136,14 @@ article img {
   background-size: cover;
   background-position: center;
 }
+
 .container_button {
   display: flex;
   flex-direction: column;
   width: 100vw;
   align-items: center;
 }
+
 .button-read {
   border-radius: 23px;
   border: 1px solid #cc0000;
@@ -152,6 +155,7 @@ article img {
   margin-top: 10px;
   margin-bottom: 60px;
 }
+
 .button-read a {
   color: #cc0000;
   text-decoration: none;
@@ -165,36 +169,43 @@ footer {
   width: 100vw;
   position: relative;
 }
+
 .logo-footer img {
   height: 14px;
   width: 68px;
   margin-top: 16px;
   margin-left: 20px;
 }
+
 .product-footer {
   color: white;
   margin-left: 20px;
   margin-top: 14px;
   font-size: 14px;
 }
+
 .product-footer h5 {
   margin-bottom: 10px;
   color: #63696f;
 }
+
 .product-footer li a {
   color: white;
   text-decoration: none;
 }
+
 footer li {
   margin-top: 5px;
 }
+
 .copyright {
-  color:#63696f;
+  color: #63696f;
   text-align: center;
   margin-top: 70px;
 }
 
 @media (min-width: 900px) {
+
   /*media queries pour la page preview*/
   .img-background {
     background-image: url("../images/background.png");
@@ -205,6 +216,7 @@ footer li {
     background-size: cover;
     background-position: center;
   }
+
   .img-car {
     background-image: url("../images/voiture.png");
     background-repeat: no-repeat;
@@ -214,6 +226,7 @@ footer li {
     background-size: cover;
     background-position: center;
   }
+
   .img-orage {
     background-image: url("../images/orage.png");
     background-repeat: no-repeat;
@@ -237,6 +250,7 @@ footer li {
     font-size: 20px;
     opacity: 0.5;
   }
+
   .view-article h2 {
     color: white;
     font-size: 25px;
@@ -253,22 +267,27 @@ footer li {
     height: auto;
     margin-bottom: 30px;
   }
+
   .intro {
     color: #6b6464;
     text-align: justify;
   }
+
   article p {
     margin-top: 20px;
     text-align: justify;
   }
+
   article h3 {
     color: black;
     padding: 10px;
     font-size: 18px;
   }
+
   .author {
     text-align: center;
   }
+
   article h4 {
     color: black;
     padding: 10px;
