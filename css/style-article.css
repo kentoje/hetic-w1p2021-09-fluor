@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Raleway-SemiBold";
   src: url("fonts/Raleway-SemiBold.ttf") format("woff2");
 }
@@ -6,7 +6,9 @@
 @font-face {
   font-family: "Raleway-Light";
   src: url("fonts/Raleway-Light.ttf") format("woff2");
-}
+} */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 * {
   box-sizing: border-box;
@@ -16,6 +18,7 @@ body {
   margin: 0;
   padding: 0;
   background: #1d1e1f;
+  font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -27,7 +30,7 @@ a {
   background-color: #1d1e1f;
 }
 .view-article h2 {
-  font-family: Raleway-SemiBold;
+  font-weight: Semi-Bold;
   color: white;
   font-size: 25px;
   text-align: center;
